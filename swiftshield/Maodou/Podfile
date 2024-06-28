@@ -1,0 +1,56 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.0'
+
+def univeral_pods
+  pod 'CryptoSwift'
+  pod 'AFNetworking'
+  #  pod 'Alamofire', '~> 5.4.0'
+end
+
+target 'Maodou' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Maodou
+  # Comment the next line if you don't want to use dynamic frameworks
+  
+  # Pods for hotwired.falcovpn
+  pod 'AttributedString'
+  pod 'SQLite.swift'
+  pod 'SnapKit'
+  pod 'MBProgressHUD'
+  pod 'WLEmptyState'
+  pod 'SDWebImage'
+  pod 'Zip'
+  pod 'AppCenter'
+  pod 'TZImagePickerController' # Full version with all features
+  pod 'QRCodeReader.swift'
+  pod 'YYImage'
+  pod 'KKImageBrowser'
+  
+  univeral_pods
+  
+end
+
+#target 'PacketTunnelExtension' do
+#  # Pods for testing
+#  use_frameworks!
+#  pod 'OpenVPNAdapter', :git => 'https://github.com/ss-abramchuk/OpenVPNAdapter.git', :tag => '0.8.0'
+#end
+
+# fix libarclite_macosx.a need min deploy target 10.14
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if ['FlexibleDiff'].include? target.name
+        target.build_configurations.each do |config|
+          config.build_settings['SWIFT_VERSION'] = '5'
+          config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'No'
+        end
+      end
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] == '' || Gem::Version.new(config.build_settings['IPHONEOS_DEPLOYMENT_TARGET']) < Gem::Version.new("10.15")
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+      end
+    end
+  end
+end

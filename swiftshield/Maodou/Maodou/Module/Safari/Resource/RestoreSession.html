@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="referrer" content="never">
+</head>
+<body>
+<script>
+  (function () {
+      const pageUrl = "{{$pageUrl}}";
+      const historyUrl = "internal://local/history?url=";
+      var index = pageUrl.search("params");
+      
+      var sessionRestoreComponents = JSON.parse(unescape(pageUrl.substring(index + "params=".length)));
+      
+      var urlList = sessionRestoreComponents['urls'];
+      console.log(urlList)
+      var currentPage = sessionRestoreComponents['currentPage'];
+
+      history.replaceState({}, "", historyUrl + urlList[0]);
+      
+      for (var i = 1; i < urlList.length; i++) {
+          history.pushState({}, "", historyUrl + urlList[i]);
+      }
+      
+      if (currentPage !== 0) {
+          history.go(currentPage);
+      }
+
+      setTimeout(() => {
+          location.reload();
+      });
+
+      setTimeout(function () {
+          webkit.messageHandlers.sessionRestoreHelper.postMessage({ name: "didRestoreSession" });
+      }, 0);
+  }) ();
+</script>
+</body>
+</html>

@@ -1,0 +1,423 @@
+/* 
+  Localizable.strings
+  Maodou
+
+  Created by huangrui on 2024/5/31.
+  
+*/
+
+//首页
+"HOME_TITTLE" = "Home";
+"HOME_TITLE" = "Monkey Proxy";
+"HOME_PROXY_CONNECTTING_TIP" = "Connecting...";
+"HOME_PROXY_DISCONNECTTING_TIP" = "Disconnecting...";
+"HOME_PROXY_MODE_WITCH_TIP" = "Switch Success";
+"HOME_PROXY_MODE_GAME" = "Game mode";
+"HOME_PROXY_MODE_GLOBAL" = "Globel mode";
+"HOME_PROXY_MODE_VIDEO" = "Vedeo mode";
+
+"HOME_PROXY_START_SPEED_UP" = "Start acceleration";
+"HOME_PROXY_START_SPEEDING" = "Accelerating";
+"HOME_PROXY_START_STOPPING" = "Stop Acceleration";
+"HOME_PROXY_STOP_DISCONNECT" = "Disconnect";
+"HOME_PROXY_START_DISCONNECT" = "Connect";
+
+"HOME_PROXY_SPPED_TIME" = "Connect time";
+"HOME_PROXY_NOT_START" = "No started";
+"HOME_PROXY_CURRENT_LINE" = "Current route";
+"HOME_PROXY_GOTO_CONNECT" = "To select";
+"HOME_PROXY_CURRENT_MODE" = "Current mode";
+
+"HOME_PROXY_SELECT_TITLE_TIPS" = "Select Mode";
+"HOME_PROXY_GLOBEL_TIPS" = "All applications are accelerated by the selected region";
+"HOME_PROXY_GAMES_TIPS" = "Suitable for returning to China to form a team to play games and reduce latency";
+"HOME_PROXY_VIDEO_TIPS" = "Applicable to using various social, video and other applications after returning to China";
+
+"HOME_PROXY_GUIDANCE_FIRST" = "1. Select the mode you want to accelerate";
+"HOME_PROXY_GUIDANCE_SECOND" = "2. Choose a suitable route";
+"HOME_PROXY_GUIDANCE_THIRD" = "3. Click Start Acceleration to start using";
+"HOME_PROXY_GUIDANCE_NEXT" = "Next";
+"HOME_PROXY_CURRENT_FINISH" = "Finish";
+
+"HOME_PROXY_SELECT_LINE_TITLE" = "Select Line";
+"HOME_PROXY_SELECT_LINE_TIPS" = "Please click on the flag of the country or region you want to connect to on the rotating globe projection, then click connect to quickly surf the Internet.";
+"HOME_PROXY_CONNECT_SUCCESS" = "Connection succeeded";
+"HOME_PROXY_WITCH_MODE_SUCCESS" = "切换模式成功";
+"HOME_PROXY_SWITCH_LINR_SUCCESS" = "切换线路成功";
+
+//浏览器
+"BROWER_TITTLE" = "Browser";
+"BROWER_HOME_PLACEHOLDER" = "Please search or enter the URL";
+"BROWER_SEARCH_TOP_PLACEHOLDER" = "Search";
+"BROWER_SEARCH_TOP_SETTINGS" = "Search settings";
+"BROWER_SEARCH_MENU_BOOKMARKS" = "Bookmarks";
+"BROWER_SEARCH_MENU_HISTORY" = "History";
+"BROWER_SEARCH_MENU_NO_HISTORY" = "Incognito";
+"BROWER_SEARCH_MENU_MARK" = "Mark";
+"BROWER_SEARCH_MENU_ADD" = "Add";
+"BROWER_SEARCH_MENU_RELOAD" = "Reload";
+"BROWER_SEARCH_MENU_NO_PHOTO" = "No photo";
+"BROWER_SEARCH_MENU_HAVA_PHOTO" = "Hava photo";
+
+"BROWER_SEARCH_MENU_BOOKMARKS_NO_TIPS" = "You have no bookmarks yet";
+"BROWER_SEARCH_MENU_BOOKMARKS_ADD" = "New";
+"BROWER_SEARCH_MENU_BOOKMARKS_NOVE" = "Move";
+"BROWER_SEARCH_MENU_BOOKMARKS_DELETE" = "Delete";
+"BROWER_SEARCH_MENU_BOOKMARKS_ADD_NEW" = "Add";
+"BROWER_SEARCH_MENU_BOOKMARKS_CHANGE" = "Revise";
+"BROWER_SEARCH_MENU_BOOKMARKS_EDIT" = "Edit";
+"BROWER_SEARCH_MENU_BOOKMARKS_SAVA" = "Sava";
+
+"BROWER_SEARCH_MENU_BOOKMARKS_TIME_TODAY" = "Today";
+"BROWER_SEARCH_MENU_BOOKMARKS_TIME_YESTERDAY" = "Yestoday";
+"BROWER_SEARCH_MENU_BOOKMARKS_NO_HISTORY" = "Clear all history";
+"BROWER_SEARCH_MENU_BOOKMARKS_YOU_HANA_NO_HISTORY" = "You have no history yet";
+"BROWER_SEARCH_MENU_BOOKMARKS_DELETE" = "Delete";
+"BROWER_SEARCH_MENU_BOOKMARKS_CHANGE" = "Revise";
+"BROWER_SEARCH_MENU_BOOKMARKS_EDIT" = "Edit";
+
+//隐私协议 - 登录
+"LOGIN_PRIVACY_TIPS" = "Start the fast return mode";
+"LOGIN_PRIVACY_TOURISTOR_LOGIN" = "Visitor Login";
+"LOGIN_PRIVACY_ACCOUNT_LOGIN" = "Account Login";
+"LOGIN_PRIVACY_FIRST_TIPS" = "By using this service you agree to our";
+"LOGIN_PRIVACY_USER_TERS" = "User Agreement";
+"LOGIN_PRIVACY_USER_PRIVACY" = "Privacy Policy";
+"LOGIN_PRIVACY_USER_ALLOW_PRIVACY" = "and understand how your data is collected, used and stored";
+"LOGIN_PRIVACY_USER_AND" = " and ";
+"LOGIN_PRIVACY_MIDDLE_LOGIN_TIPS" = "Enjoy life better \n\n Internet surfing easier";
+"LOGIN_PRIVACY_BUTTON_AGREE" = "Agree";
+"LOGIN_PRIVACY_BUTTON_DISAGREE" = "Disagree";
+
+//邮箱登录
+"LOGIN_TITLE" = "switch accounts";
+"LOGIN_EMAIL_HEAD" = "You can use your email address and password to complete your login, or  return to the original account.";
+"LOGIN_EMAIL_HEAD_NEW" = "Please enter your email address";
+"LOGIN_EMAIL_SWITCH_TITLE" = "E-mail";
+"LOGIN_EMAIL_HEAD_TITLE" = "E-mail";
+"LOGIN_EMAIL_HEAD_PLACE" = "Enter e-mail";
+"LOGIN_EMAIL_HEAD_PWD" = "Password";
+"LOGIN_EMAIL_PWD_PLACE" = "Enter password";
+"LOGIN_EMAIL_CREATE_ACCOUNT" = "create Account";
+"LOGIN_EMAIL_FORGET_PWD" = "retrieve password";
+"LOGIN_EMAIL_BUTTON_TITLE" = "switch accounts";
+"LOGIN_EMAIL_QUICK_USERID_LOGIN" = "Quick login: Use a previous account";
+"LOGIN_ACCOUNT_TITLE" = "login account";
+"LOGIN_NEW_ACCOUNT_TITLE" = "login new account";
+//手机登录
+"LOGIN_PHONE_HEAD" = "You can use the bound email or mobile phone number and password to complete the login, or you can return to the previous account.";
+"LOGIN_PHONE_HEAD_NEW" = "Please enter your Phone number";
+"LOGIN_PHONE_SWITCH_TITLE" = "Phone number";
+"LOGIN_PHONE_HEAD_TITLE" = "Phone number";
+"LOGIN_PHONE_HEAD_PLACE" = "Enter phone number";
+"LOGIN_PHONE_HEAD_PWD" = "password";
+"LOGIN_PHONE_PWD_PLACE" = "Enter password";
+"LOGIN_PHONE_CREATE_ACCOUNT" = "create Account";
+"LOGIN_PHONE_FORGET_PWD" = "retrieve password";
+"LOGIN_PHONE_BUTTON_TITLE" = "switch accounts";
+"LOGIN_PHONE_QUICK_USERID_LOGIN" = "Quick login: Use a previous account";
+"LOGIN_PHONE_CHINA_TIPS" = "China";
+
+//注册
+
+"REGISTER_SUCCESS_TIP" = "registration success";
+"REGISTER_ACCOUNT_TITLE_TIP" = "Register an account";
+
+//邮箱注册
+"REGISTER_TITLE" = "register";
+"REGISTER_EMAIL_HEAD" = "Registering with an email address can be used for multi-device login and password retrieval.";
+"REGISTER_EMAIL_SWITCH_TITLE" = "E-mail";
+"REGISTER_EMAIL_HEAD_TITLE" = "E-mail";
+"REGISTER_EMAIL_HEAD_PLACE" = "Enter email";
+"REGISTER_EMAIL_FOOT_ONE_TITLE" = "We will send a verification code to your email, please check it.";
+"REGISTER_EMAIL_HEAD_PWD" = "Enter password";
+"REGISTER_EMAIL_PWD_PLACE" = "Enter password";
+"REGISTER_EMAIL_PWD_PLACE_AGAIN" = "Please enter again";
+"REGISTER_EMAIL_FOOT_TWO_TITLE" = "Set a new password (8 to 20 characters and numbers)";
+"REGISTER_EMAIL_FOOT_SURE_TITLE" = "Confirm the new password";
+"REGISTER_EMAIL_PWD_NOT_THE_SAME" = "Sorry, the two passwords do not match";
+"REGISTER_EMAIL_HAVE_ACCOUNT" = "I have an account";
+"REGISTER_EMAIL_BUTTON_TITLE" = "register";
+"REGISTER_EMAIL_FOOT_HEAD_ONE" = "By registering for an account, you agree to our User ";
+"REGISTER_EMAIL_FOOT_HEAD_TEARS" = "Agreement";
+"REGISTER_EMAIL_FOOT_HEAD_END" = "and";
+"REGISTER_EMAIL_FOOT_HEAD_PRIVACY" = "Privacy Policy";
+"REGISTER_EMAIL_FOOT_FINISH_BY_EAMIL" = "Once your email address is verified, you will be registered and logged in.";
+"REGISTER_PHONE_FOOT_FINISH_BY_EAMIL" = "Once your phone number is verified, you will be registered and logged in.";
+"REGISTER_AND_LOGIN" = "Register and log in";
+"REGISTER_ENYER_VERITYCODE_TIPS" = "Please enter verification code";
+"FORGET_PAWWORD_BY_EMAIL_WITH_VERITY" = "Once your email address is verified, your password will be reset and you will be logged in.";
+"FORGET_PAWWORD_BY_PHONE_WITH_VERITY" = "Once your phone number is verified, your password will be reset and you will be logged in.";
+"FORGET_PAWWORD_RESET_AND_LOGIN" = "Reset password and log in";
+
+
+//手机注册
+"REGISTER_TITLE" = "register";
+"REGISTER_PHONE_HEAD" = "Using mobile phone registration can be used for multi-device login and password retrieval";
+"REGISTER_PHONE_SWITCH_TITLE" = "Phone number";
+"REGISTER_PHONE_HEAD_TITLE" = "Phone number";
+"REGISTER_PHONE_HEAD_PLACE" = "Enter phone number";
+"REGISTER_PHONE_HEAD_PWD" = "Set Password";
+"REGISTER_PHONE_PWD_PLACE" = "Enter password";
+"REGISTER_PHONE_SEND_CODE" = "Send code";
+"REGISTER_PHONE_FOOT_ONE_TITLE" = "We will send a verification code to your email, please check it.";
+"REGISTER_PHONE_FOOT_TWO_TITLE" = "Password must be 8-16 characters, and some combination of letters and numbers (not only numbers)。";
+"REGISTER_PHONE_HAVE_ACCOUNT" = "Have an account";
+"REGISTER_PHONE_BUTTON_TITLE" = "register";
+"REGISTER_PHONE_FOOT_HEAD_ONE" = "By registering for an account, you agree to our User ";
+"REGISTER_PHONE_FOOT_HEAD_TEARS" = "Agreement";
+"REGISTER_PHONE_FOOT_HEAD_END" = "and";
+"REGISTER_PHONE_FOOT_HEAD_PRIVACY" = "Privacy Policy";
+//邮箱找回密码
+"FORGET_TITLE" = "retrieve password";
+"FORGET_EMAIL_HEAD" = "Please enter the email address .";
+"FORGET_EMAIL_SWITCH_TITLE" = "E-mail";
+"FORGET_EMAIL_HEAD_TITLE" = "E-mail";
+"FORGET_EMAIL_HEAD_PLACE" = "Enter email";
+"FORGET_EMAIL_FOOT_ONE_TITLE" = "We will send a verification code to your email, please check it.";
+"FORGET_EMAIL_HEAD_ACTION" = "retrieve";
+"FORGET_ACCOUN_PASSWORD_TIPS" = "forget password";
+
+//手机号找回密码
+"FORGET_TITLE" = "retrieve password";
+"FORGET_PHONE_HEAD" = "Please enter your cell phone number.";
+"FORGET_PHONE_SWITCH_TITLE"  = "Phone number";
+"FORGET_PHONE_HEAD_TITLE"= "Phone number";
+"FORGET_PHONE_HEAD_PLACE" = "Enter phone number";
+"FORGET_PHONE_FOOT_ONE_TITLE" = "We will send a verification code to your mobile phone, please check it.";
+"FORGET_PHONE_HEAD_ACTION" = "retrieve";
+
+//设定-账号
+"SETTING_ACCOUNT_TITLE" = "Account";
+"SETTING_ACCOUNT_MEMBER" = "Member";
+"SETTING_ACCOUNT_USERID" = "UserId";
+"SETTING_ACCOUNT_USERName" = "Username";
+"SETTING_ACCOUNT_PASSWORD" = "Password";
+"SETTING_ACCOUNT_EMAIL" = "E-mail";
+"SETTING_ACCOUNT_PHONE" = "Phone number";
+"SETTING_ACCOUNT_INFO" = "Information";
+"SETTING_ACCOUNT_STATUS" = "membership status";
+"SETTING_ACCOUNT_EXPIRATION_DATE" = "Deadline";
+"SETTING_ACCOUNT_GO_PREMIUM" = "Upgrade";
+"SETTING_ACCOUNT_MANAGER_DESCRIBE" = "manage subscription";
+"SETTING_ACCOUNT_RESTORE_PURCHASE" = "Restore purchases";
+"SETTING_ACCOUNT_RESTORE_FREE" = "Free";
+"SETTING_ACCOUNT_RESTORE_EXPIRED" = "Expired";
+"SETTING_ACCOUNT_RESTORE_RENEWS" = "Renews";
+"SETTING_ACCOUNT_NOT_SET" = "Not Set";
+"SETTING_ACCOUNT_HAS_SET" = "Already Set";
+"SETTING_ACCOUNT_BIND_REWAEDS" = "set up";
+"SETTING_ACCOUNT_MUTPI_DIDICE" = "More features unlocked in Settings";
+"SETTING_ACCOUNT_EXPIRATION_SUBTITLE" = "maturity";
+"SETTING_ACCOUNT_SUBSTATUS_0" = "not subscribed";
+"SETTING_ACCOUNT_SUBSTATUS_1" = "Subscribing";
+"SETTING_ACCOUNT_SUBSTATUS_2" = "In trial";
+"SETTING_ACCOUNT_SUBSTATUS_3" = "Unsubscribed";
+"SETTING_ACCOUNT_SUBSTATUS_4" = "Unsubscribe during trial period";
+"REGISTER_EMAIL_FOOT_TWO_TITLE" = "8 to 20 letters and numbers";
+"REGISTER_EMAIL_BAIND_SAFATY_TITLE" = "For account security, please bind your email address for easier way to log in";
+"REGISTER_PHONE_BAIND_SAFATY_TITLE" = "For account security, please bind your phone number for easier way to log in";
+"REGISTER_BAIND_ACCOUNT_SAFTTY" = "You have successfully bound";
+"CHANGE_BIND_EMAIL_TIPS" = "Change the bound email address";
+"CHANGE_BIND_PHONE_TIPS" = "Change the bound phone number";
+"NEW_ACCOUNT_CHANGE_BIND_EMAIL_TIPS" = "The new email address will be changed and bound after verification";
+"NEW_ACCOUNT_CHANGE_BIND_PHONE_TIPS" = "The new phone number will be replaced and bound after verification";
+"NEW_ACCOUNT_HAS_BEEN_BIND" = "You have successfully changed the binding";
+"NEW_ACCOUNT_EXCHANGE_BIND" = "Change Binding";
+"VerityCODE_BIND_EMAIL" = "To confirm that it is my account, please verify the currently email address first";
+"VerityCODE_BIND_PHONE" = "To confirm that it is my account, please verify the currently phone number first";
+"PRIVACY_LOGIN_TITLE" = "Privacy Protection Tips";
+"PRIVACY_LOGIN_REFUSE_TIPS" = "Sorry, if you do not agree you will not be able to use the Monkey Proxy";
+"PRIVACY_LOGIN_IKNOW_TIPS" = "I Know";
+
+//设定-账号-设定密码
+"SETTING_ACCOUNT_SETPASSWORD_TITLE" = "Set Password";
+"SETTING_ACCOUNT_SETPASSWORD_HEADER" = "After setting, can be used to log in with Comlink.";
+"SETTING_ACCOUNT_SETPASSWORD_PASSWORD" = "password";
+"SETTING_ACCOUNT_SETPASSWORD_ENTERPWD" = "Enter password";
+"SETTING_ACCOUNT_SETPASSWORD_NEWPWD" = "New password";
+"SETTING_ACCOUNT_SETPASSWORD_OLDPWD" = "Old Password";
+"SETTING_ACCOUNT_SETPASSWORD_ENTERNEWPWD" = "Please enter a new password";
+"SETTING_ACCOUNT_SETPASSWORD_ENTEROLDPWD" = "Please enter old password";
+"SETTING_ACCOUNT_SETPASSWORD_CONFIRM" = "Confirm";
+"SETTING_ACCOUNT_SETPASSWORD_ENTERPWD_AGAIN" = "Enter password again";
+"SETTING_ACCOUNT_SETPASSWORD_FOOTER" = "Password must be 8-16 characters, and some combination of letters and numbers (not only numbers)";
+
+//设定-账号-绑定手机号
+"SETTING_ACCOUNT_BINDPHONE_TITLE" = "Bind the phone number";
+"SETTING_ACCOUNT_BINDPHONE_HEAD"= "Set Phone Number";
+"SETTING_ACCOUNT_BINDPHONE_PHONE"= "Phone number";
+"SETTING_ACCOUNT_BINDPHONE_ENTER_PHONE" = "Enter phone number";
+"SETTING_ACCOUNT_BINDPHONE_FOOTER"= "We will send a verification code to your mobile phone, please check it.";
+"BIND_PHONE_OR_EMAIL" = "Start binding";
+
+//设定-账号-绑定邮箱
+"SETTING_ACCOUNT_BINDEMAIL_TITLE" = "bind email";
+"SETTING_ACCOUNT_BINDEMAIL_HEAD"= "Set Email";
+"SETTING_ACCOUNT_BINDEMAIL_PHONE"= "E-mail";
+"SETTING_ACCOUNT_BINDEMAIL_ENTER_PHONE" = "Enter email";
+"SETTING_ACCOUNT_BINDEMAIL_FOOTER"= "We will send a verification code to your email, please check carefully";
+"SETTING_ACCOUNT_BINDEMAIL_SURE"= "Done";
+"SETTING_ACCOUNT_CHANGE_PWD_TITLE" = "change Password";
+"SETTING_ACCOUNT_CHANGE_PWD" = "change Password";
+
+//设置-联系我们
+"SETTING_CONTACTUS_TITLE" = "Feedback";
+"SETTING_CONTACTUS_ONE_HEADER" = "Please describe what needs feedback";
+"SETTING_CONTACTUS_MESSAGE" = "Enter feedback";
+"SETTING_CONTACTUS_UPLOADIMAGE" = "Upload picture (optional)";
+"SETTING_CONTACTUS_CONTACT_TITLE" = "Contact information (optional)";
+"SETTING_CONTACTUS_CONTACT" = "Enter email";
+"SETTING_CONTACTUS_SEND" = "Send";
+"SETTING_CONTACTUS_LEAST_FIVE_CHARACTERS_TIP" = "Enter at least five characters";
+"SETTING_CONTACTUS_REPORT_SUCCESS" = "Success";
+"SETTING_CONTACTUS_CAMERA" = "Camera";
+"SETTING_CONTACTUS_PHOTO" = "Photo";
+"SETTING_CONTACTUS_CANCEL" = "Cancle";
+"SETTING_CONTACTUS_CAMERA_PERMISSION_TIP" = "Please turn on camera permissions in Settings";
+"SETTING_CONTACTUS_PHOTO_PERMISSION_TIP" = "Please open album permissions in Settings";
+"SETTING_CONTACTUS_FEEDBACK" = "I want feedback";
+"FEEDBACK_HAD_END" = "Feedback ended";
+"FEEDBACK_HAD_ACCEPT" = "Feedback adopted";
+"FEEDBACK_LIST_EMPTY_TIP" = "No feedback content";
+"FEEDBACK_DETAIL_MESSAGE_TIP" = "Please enter the content you want to feedback.";
+"FEEDBACK_DETAIL_MESSAGE_TITLE_TIPS" = "Feedback details";
+"FEEDBACK_HAS_GET_TIP" = "Feedback adopted";
+
+//设置-关于
+"ABOUT_TITLE" = "About";
+"SETTING_ABOUT_TITLE" = "About";
+"SETTING_ABOUT_ONE_HEAD_TITLE" = "Enjoy the Best VPN Service with ComLinkVPN";
+"SETTING_ABOUT_ONE_HEAD_DETAIL" = "ComLinkVPN offers the highest levels of security and privacy, stable connections from anywhere in the world and uninterrupted VPN service — 24 hours a day — guaranteed. And we offer all this to our users at a reasonable price!";
+"SETTING_ABOUT_ONE_HEAD_ADDITIOAN" = "In addition to first-rate service, ComLinkVPN boasts of customer support that is second to none! We're here to help you in any way we can.";
+"SETTING_ABOUT_TWO_HEAD_TITLE" = "Try It Free";
+"SETTING_ABOUT_TWO_HEAD_DETAIL" = "Because we're so sure that once you try ComLinkVPN you'll want to stay with it, we offer a free trial period. During your trial period, you'll come to appreciate our service quality, capacity and functional capabilities. Selecting a great VPN carrier has never been so easy!";
+"SETTING_ABOUT_TERMS" = "Terms";
+"SETTING_ABOUT_PRIVACY" = "Privacy";
+
+//设定-绑定账号
+//邮箱
+"SETTING_BINGACCOUNT_EMAIL_TITLE" = "Set up email";
+"SETTING_BINGACCOUNT_EMAIL_HEAD" = "Unlock More Features After Binding";
+"SETTING_BINGACCOUNT_EMAIL_FOOT" = "Password must be 8-16 characters, and some combination of letters and numbers (not only numbers)";
+"SETTING_BINGACCOUNT_EMAIL_USERNAME" = "User Name";
+"SETTING_BINGACCOUNT_EMAIL_Email" = "E-mail";
+"SETTING_BINGACCOUNT_EMAIL_PWD" = "password";
+"SETTING_BINGACCOUNT_EMAIL_Email_ENTER" = "Enter email";
+"SETTING_BINGACCOUNT_EMAIL_PWD_ENTER" = "Enter password";
+"SETTING_BINGACCOUNT_EMAIL_COUTINUE" = "Start binding";
+
+"SETTING_BINGACCOUNT_NOCK_MORE_FUNCTION" = "Settings to unlock more features";
+"SETTING_ACCOUNT_LOGOUT_TIPS" = "Are you sure you want to log out?";
+"SETTING_ACCOUNT_LOGOUT_SURE_TIPS" = "Sure";
+"SETTING_ACCOUNT_LOGOUT_Quic_TIPS" = "Quit";
+"SETTING_ACCOUNT_LOGOUT_CANCLE_TIPS" = "Cancle";
+
+"SETTING_ACCOUNT_EXPIRED_TIME" = "Expire date";
+"SETTING_ACCOUNT_TIME_EXPIRED" = "Expired";
+
+//手机号
+"SETTING_BINGACCOUNT_PHONE_TITLE" = "Set up the phone number";
+"SETTING_BINGACCOUNT_PHONE_HEAD" = "Set up a cell phone number account for multi-device login and password retrieval.";
+"SETTING_BINGACCOUNT_PHONE_FOOT" = "Password must be 8-16 characters, and some combination of letters and numbers (not only numbers)";
+"SETTING_BINGACCOUNT_PHONE_USERNAME" = "User Name";
+"SETTING_BINGACCOUNT_PHONE_Email" = "Phone number";
+"SETTING_BINGACCOUNT_PHONE_PWD" = "password";
+"SETTING_BINGACCOUNT_PHONE_Email_ENTER" = "Enter phone number";
+"SETTING_BINGACCOUNT_PHONE_PWD_ENTER" = "Enter password";
+"SETTING_BINGACCOUNT_PHONE_PWD_AGAIN_ENTER" = "Please enter again";
+"SETTING_BINGACCOUNT_PHONE_COUTINUE" = "continue";
+
+
+//verity code
+"RECEIVE_VRITIFYCODE_BIND_PHONE_TITLE" = "Bind the phone number";
+"RECEIVE_VRITIFYCODE_BIND_PHONE_TRIPS" = "Your cell phone will receive a set of verification code, please fill in correctly after receiving it";
+"RECEIVE_VRITIFYCODE_BIND_EMAIL_TITLE" = "bind email";
+"RECEIVE_VRITIFYCODE_VERITY_PHONE_TITLE" = "Verify account";
+"RECEIVE_VRITIFYCODE_VERITY_PHONE_TRIPS" = "Your cell phone will receive a set of verification code, please fill in correctly after receiving it.";
+"RECEIVE_VRITIFYCODE_RE_EMAIL_TITLE" = "retrieve password";
+"SETTING_VRITIFYCODE_ONE_MINITE_LATER" = "Sent, please try again in 1 minute";
+"SETTING_VRITIFYCODE_HAVE_NOT_RECEIVE" = "Did not receive";
+
+//设定-切换账号
+"SETTING_SWITCH_ACCOUNT_TITLE" = "Toggle Reminder";
+"SETTING_SWITCH_ACCOUNT_TRIPS" = "Temporary accounts created by the system may be lost or forgotten after switching. It is recommended that you set up an account.";
+"SETTING_SWITCH_ACCOUNT_SWITCH" = "to switch";
+"SETTING_SWITCH_ACCOUNT_BINDING" = "set up";
+
+//设定-注销账号
+"SETTING_CANCLE_ACCOUNT" = "Logout";
+"SETTING_CANCLE_ACCOUNT_TITLE" = "Logout reminder";
+"SETTING_CANCLE_ACCOUNT_ONE_TRIPS" = "After logging out, your account:";
+"SETTING_CANCLE_ACCOUNT_TWO_TRIPS" = "All data will be deleted and all membership benefits will not be restored. Do you want to cancel?";
+
+//HUD提示语言
+"PLEASE_ENTER_PHONE_ACCOUNT" = "Please enter your cell phone number ";
+"PLEASE_ENTER_EMAIL_ACCOUNT" = "Please enter your email adress";
+"ENTER_PHONE_ACCOUNT_ERROR" = "The account format is incorrect, please re-enter";
+"PLEASE_ENTER_CURRENT_PWD" = "Please enter 8-16 digit password";
+"PLEASE_ENTER_PWD" = "Please enter your password";
+"PLEASE_ENTER_CURRENT_PASSWORD" = "Password format is incorrect, please re-enter";
+"SIGN_SUCCESS" = "login successful";
+"HAS_ENTER_YZM_EMAIL" = "Your email will receive a set of verification code, please pay attention to check";
+"REGISTER_SUSSESS" = "registration success";
+"HAS_ENTER_YZM_PHONE" = "Your cell phone will receive a set of verification code, please pay attention to check";
+"PLEASE_ENTER_ACCOUNT_NUMBER" = "Please enter your account";
+"PLEASE_ENTER_PHONE_NUMBER" = "Please enter your cell phone number";
+"PLEASE_ENTER_ACCOUNT_PASSWORD" = "Please enter your password";
+"HUD_LOADING_TIP" = "The system is loading，please wait ";
+"PLEASEURE_ENTER_SIX_CODE" = "Please enter the six-digit verification code";
+"LOGOUT_SUCCESS" = "Logout succeeded";
+"LOADING_TIPS" = "Loading...";
+
+//我的界面
+"SETTINGS_TITLE" = "Profile";
+"SETTINGS_TABLE_MESSAGE_CENTER" = "Message Center";
+"SETTINGS_TABLE_MESSAGE_FEEDBACK" = "Feedback";
+"SETTINGS_TABLE_MESSAGE_SET_MANAGER" = "Device Management";
+"SETTINGS_TABLE_MESSAGE_SETTINGS" = "Settings";
+"SETTINGS_NOTIFICATIONS" = "Push Notifications";
+"SETTINGS_ABOUT_US" = "About Us";
+
+"SETTING_MESSAGE_MY_TITLE" = "My News";
+"SETTING_MESSAGE_HAVA_NO_MESSAGE" = "You have no message yet";
+
+"SETTING_CONTACTUS_TITLE" = "Feedback";
+"SETTING_CONTACTUS_CHOOSE_FEEDBACK_TYPE" = "Select Feedback Type";
+"SETTING_CONTACTUS_ONE_HEADER" = "Please describe what you need feedback on";
+"SETTING_CONTACTUS_FEEDBACK_TYPE_SPEED" = "Acceleration abnormality";
+"SETTING_CONTACTUS_FEEDBACK_TYPE_LESS_GAMES" = "Missing games (apps)";
+"SETTING_CONTACTUS_FEEDBACK_TYPE_CRASH" = "Crash issues";
+"SETTING_CONTACTUS_FEEDBACK_TYPE_OTHER" = "other questions";
+"SETTING_CONTACTUS_MESSAGE" = "Feedback content";
+"SETTING_CONTACTUS_MESSAGE_PLACEHOLD" = "Please describe the problem you encountered in detail. (500 words)";
+"SETTING_CONTACTUS_UPLOADIMAGE" = "Upload a picture (optional)";
+"SETTING_CONTACTUS_CONTACT_TITLE" = "Contact information (optional)";
+"SETTING_CONTACTUS_CONTACT" = "Enter your email address";
+"SETTING_CONTACTUS_SEND" = "submit";
+"SETTING_CONTACTUS_CONNECT_TYPE" = "To solve the problem smoothly, please provide contact information (email)";
+"SETTING_CONTACTUS_REPORT_SUCCESS" = "Feedback success";
+"SETTING_CONTACTUS_LEAST_FIVE_CHARACTERS_TIP" = "Please enter at least 5 characters";
+"SETTING_CONTACTUS_CAMERA" = "Camera";
+"SETTING_CONTACTUS_PHOTO" = "Photo";
+"SETTING_CONTACTUS_CANCEL" = "Cancle";
+"SETTING_CONTACTUS_CAMERA_PERMISSION_TIP" = "Please turn on camera permissions in Settings";
+"SETTING_CONTACTUS_PHOTO_PERMISSION_TIP" = "Please open album permissions in Settings";
+"SETTING_CONTACTUS_FEEDBACK" = "I want feedback";
+"FEEDBACK_HAD_END" = "Feedback ended";
+"FEEDBACK_HAD_ACCEPT" = "Feedback adopted";
+"FEEDBACK_LIST_EMPTY_TIP" = "No feedback content";
+"FEEDBACK_DETAIL_MESSAGE_TIP" = "Please enter the content you want to feedback.";
+
+//设备管理
+"DEVICE_MANAGEMENT_TITLE" = "Device Management";
+"DEVICE_MANAGEMENT_INFO" = " Device is logged in";
+"DEVICE_MANAGEMENT_ASSOCIATED_DEVICE" = "Associated device";
+"DEVICE_MANAGEMENT_MOBILE_DOWNLOAD" = "Mobile Download";
+"DEVICE_MANAGEMENT_MOBILE_DOWNLOAD_INFO" = "1. The mobile client can be downloaded directly by searching for \"ComlinkVPN\" in the app store.\n2. Scan the QR code with the camera to download.";
+"DEVICE_MANAGEMENT_DESKTOP_DOWNLOAD" = "Desktop Download";
+"DEVICE_MANAGEMENT_DESKTOP_DOWNLOAD_INFO_1" = "1. Visit the official website\"";
+"DEVICE_MANAGEMENT_DESKTOP_DOWNLOAD_INFO_2" = "https://www.comlinkvpn.com";
+"DEVICE_MANAGEMENT_DESKTOP_DOWNLOAD_INFO_3" = "\"Download the client directly.";
+"DEVICE_MANAGEMENT_CURRENT_LOGIN" = "Current login";
+"DEVICE_MANAGEMENT_LATEST_LOGIN" = "Last login %@";

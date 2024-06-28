@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  Maodou
+
+  Created by huangrui on 2024/5/31.
+ 
+*/
+
+"CFBundleDisplayName" = "Monkey Proxy";
+"NSCameraUsageDescription" = "亲，当前需要拍照来反馈错误信息给客服，请允许访问相机的功能";
+"NSPhotoLibraryAddUsageDescription" = "亲，当前需要保存图片至相册以供反馈错误信息给客服，您是否允许?";
+"NSPhotoLibraryUsageDescription" = "亲，当前功能需要访问您的相册来编辑图片以供反馈错误信息给客服，您是否允许打开相册？";
+//"NSUserTrackingUsageDescription" = "亲，请放心，开启权限不会从其他网站获取您的隐私信息，只会获取您的设备ID";
+"NSLocalNetworkUsageDescription" = "亲，我们需要您的局域网络权限才可以为您提供更好的服务体验";
+"NSLocationAlwaysUsageDescription" = "提升自动连接效果需要访问您的定位来增加区域匹配，您是否允许打开定位？";
+"NSLocationWhenInUseUsageDescription" = "提升自动连接效果需要访问您的定位来增加区域匹配，您是否允许打开定位？";
